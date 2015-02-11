@@ -1,3 +1,37 @@
+body {
+	margin: 0;
+}
+div.main-header {
+	height: 100px;
+	background-color: #353535;
+}
+div.nav-bar {
+	height: 25px;
+	background-color: black;
+	color: white;
+}
+div.nav-bar-content {
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 3px;
+}
+.nav-bar a {
+	color: white;
+}
+div.main-content {
+	width: 980px;
+	min-height: 900px;
+	margin: 0 auto;
+	background-color: #E6E6E6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
